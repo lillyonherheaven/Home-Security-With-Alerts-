@@ -41,6 +41,3 @@ An integrated home security system based on the **ESP32** microcontroller. It mo
 3. Replace `YOUR_TELEGRAM_BOT_TOKEN` and `YOUR_TELEGRAM_CHAT_ID` with your actual credentials.
 4. Add your WiFi credentials in the `wifiMulti.addAP` function.
 5. Upload the code to your ESP32 board.
-
-## ⚠️ Security Note
-**Do not upload your personal credentials** (Bot Token, Chat ID, or WiFi Passwords) to a public GitHub repository. Always use placeholders as shown in the provided code template.
