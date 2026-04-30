@@ -1,3 +1,4 @@
+![Final Project Shape](final%20project%20shape.jpeg)
 # 🏠 Smart Home Security System (ESP32)
 
 An integrated home security system based on the **ESP32** microcontroller. It monitors the home environment using multiple sensors and sends real-time alerts via **Telegram**.
@@ -41,3 +42,4 @@ An integrated home security system based on the **ESP32** microcontroller. It mo
 3. Replace `YOUR_TELEGRAM_BOT_TOKEN` and `YOUR_TELEGRAM_CHAT_ID` with your actual credentials.
 4. Add your WiFi credentials in the `wifiMulti.addAP` function.
 5. Upload the code to your ESP32 board.
+![Final Project Shape](final%20project%20shape.jpeg)
