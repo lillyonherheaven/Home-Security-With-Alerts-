@@ -1,4 +1,4 @@
-![Final Project Shape](final%20project%20shape.jpeg)
+![Banner](home%20security%20banner.jpeg)
 # 🏠 Smart Home Security System (ESP32)
 
 An integrated home security system based on the **ESP32** microcontroller. It monitors the home environment using multiple sensors and sends real-time alerts via **Telegram**.
