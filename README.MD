@@ -1,16 +1,16 @@
 ![Banner](home%20security%20banner.jpeg)
-# 🏠 Smart Home Security System (ESP32)
+# Smart Home Security System (ESP32)
 
 An integrated home security system based on the **ESP32** microcontroller. It monitors the home environment using multiple sensors and sends real-time alerts via **Telegram**.
 
-## 🚀 Features
+##  Features
 * **Instant Alerts:** Sends Telegram notifications immediately when a threat is detected.
 * **Comprehensive Monitoring:** Tracks motion, door status, fire, gas leaks, and loud noises.
 * **Local Display:** 16x2 LCD screen showing the real-time status of all sensors.
 * **Audible Alarm:** An active buzzer triggers automatically during any security breach.
 * **Multi-Network Support:** Uses `WiFiMulti` to connect to multiple pre-configured networks for maximum uptime.
 
-## 🛠 Hardware Components
+## Hardware Components
 * **Microcontroller:** ESP32
 * **Display:** LCD I2C (16x2)
 * **Sensors:**
@@ -21,7 +21,7 @@ An integrated home security system based on the **ESP32** microcontroller. It mo
   * **Sound Sensor:** For high-noise or breaking-glass detection.
 * **Alarm:** Active Buzzer.
 
-## 🔌 Pinout Configuration
+## Pinout Configuration
 | Component | ESP32 Pin |
 |-----------|-----------|
 | PIR Sensor| GPIO 23    |
@@ -33,7 +33,7 @@ An integrated home security system based on the **ESP32** microcontroller. It mo
 | LCD SDA   | GPIO 21    |
 | LCD SCL   | GPIO 22    |
 
-## 💻 Setup & Installation
+## Setup & Installation
 1. Install the following libraries in Arduino IDE or PlatformIO:
    * `UniversalTelegramBot`
    * `LiquidCrystal_I2C`
